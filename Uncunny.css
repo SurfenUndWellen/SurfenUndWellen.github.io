@@ -1,0 +1,32 @@
+.image {
+    box-sizing: border-box;
+    scale: 1.5;
+    transform-origin: center center;
+    transition: 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.input {
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        }
+        
+* {
+            -webkit-user-drag: none;
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+}
+        
+
+
+  html, body {
+    height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
